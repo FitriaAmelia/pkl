@@ -23,6 +23,21 @@ class HomeScreen extends StatelessWidget {
                         fit: BoxFit.cover),
                     gradient:
                         LinearGradient(colors: [Colors.white, Colors.white]))),
+                        Positioned(
+                      left: 45.0,
+                      top: 20.0,
+                      child: Container(
+                        margin : EdgeInsets.all(10),
+                       
+                        child: Text(
+                          "``Tidaklah seorang muslim mendirikan shalat\n sunnah ikhlas karena Allah sebanyak 12 rakaat\n selain sholat fardhu, melainkan Allah akan membangunkan baginya sebuah rumah di surga. \n(H.R.Muslim dari Ummu Habibah, Isteri Nabi SAW, \nyang mengabarkan Rasulullah bersabda demikian itu).``",
+                          textAlign: TextAlign.center,
+                          style: TextStyle(
+                              color: Colors.black,
+                              fontFamily: 'NunitoBold',
+                              fontSize: 15),
+                        ),
+                      )),
           ],
         ),
       ),

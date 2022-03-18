@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'home_screen.dart';
 import 'profile_screen.dart';
 import 'menu1_screen.dart';
-import 'menu2_screen.dart';
+// import 'menu2_screen.dart';
 
 class MainScreen extends StatefulWidget {
   @override
@@ -15,7 +15,7 @@ class _MainScreenState extends State<MainScreen> {
   List<Widget> _widgetOptions = <Widget>[
     HomeScreen(),
     MenuScreen1(),
-    MenuScreen2(),
+    // MenuScreen2(),
     ProfileScreen(),
   ];
   @override
@@ -36,10 +36,10 @@ class _MainScreenState extends State<MainScreen> {
             icon: Icon(Icons.assignment),
             label: 'Menu 1',
           ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.mail),
-            label: 'Menu 2',
-          ),
+          // BottomNavigationBarItem(
+          //   icon: Icon(Icons.mail),
+          //   label: 'Menu 2',
+          // ),
           BottomNavigationBarItem(
             icon: Icon(Icons.person),
             label: 'Profile',

@@ -15,10 +15,15 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: SplashScreenView(
         navigateRoute: MainScreen(),
-        duration: 4000,
+        duration: 8000,
         imageSize: 130,
-        imageSrc: "assets/img/logologo.png",
+        imageSrc: "assets/img/jud.png",
         backgroundColor: Colors.white,
+        text:"Aplikasi Do'a Sholat Sunnah\nFitria Amelia",
+        textType: TextType.TyperAnimatedText,
+        textStyle: TextStyle(
+          fontSize: 30.0,
+        ),
       ),
     );
   }
